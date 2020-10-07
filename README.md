@@ -28,4 +28,4 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 ### Übung 1 - Arbeitsfähigkeit herstellen
 Ziel der Übung ist es für die folgenden Übungen Arbeitsfähigkeit herzustellen. Nachdem in den letzten Jahren die Heterogenität der Arbeitsgeräte (Studentenlaptops und Rechner im Labor) stark zugenommen hat, soll diese Übung sicherstellen, dass jeder Student Zugriff auf Entwicklungsumgebung und Musterlösungen hat.
 
-<a href="docbase/U-01-Arbeitsfaehigkeit.pdf">#TODO Übungsblatt 1</a>
+<a href="docbase/U-01-Arbeitsfaehigkeit.pdf">Übungsblatt 1</a>
