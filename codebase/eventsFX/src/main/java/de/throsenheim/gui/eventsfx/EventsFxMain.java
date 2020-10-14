@@ -6,6 +6,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/**
+ * Simple main class for starting the application. This class loads the FXML file.
+ *
+ * @author dhaas
+ */
 public class EventsFxMain extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
