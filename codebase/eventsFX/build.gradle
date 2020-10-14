@@ -20,4 +20,4 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-mainClassName = 'de.throsenheim.gui.events.#TODO'
+mainClassName = 'de.throsenheim.gui.eventsfx.EventsFxMain'
