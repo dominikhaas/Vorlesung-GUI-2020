@@ -29,3 +29,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 Ziel der Übung ist es für die folgenden Übungen Arbeitsfähigkeit herzustellen. Nachdem in den letzten Jahren die Heterogenität der Arbeitsgeräte (Studentenlaptops und Rechner im Labor) stark zugenommen hat, soll diese Übung sicherstellen, dass jeder Student Zugriff auf Entwicklungsumgebung und Musterlösungen hat.
 
 <a href="docbase/U-01-Arbeitsfaehigkeit.pdf">Übungsblatt 1</a>
+
+### Übung 2 - Komponenten und Layouts
+Ziel der Übung ist es ein typisches Eingabeformular in FXML zu erstellen. Wir benutzen dazu das Werkzeug SceneBuilder.
+
+<a href="docbase/U-02-Layout.pdf">Übungsblatt 2</a>
