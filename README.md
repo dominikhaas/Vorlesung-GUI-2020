@@ -44,3 +44,8 @@ Ziel der Übung ist es die Oberfläche aus Übung 2 mit Funktionalität zu verse
 Ziel der Übung ist es die Oberfläche aus Übung 3 nach dem MVP Muster mit Data Binding weiterzuentwickeln.
 
 <a href="docbase/U-04-MVx.pdf">Übungsblatt 4</a>
+
+### Übung 5 - GUI Komponenten
+Ziel der Übung ist es, eine Oberfläche bestehend aus Eingabeformular und Tabelle zu erzeugen. Die Oberfläche aus Übung 4 soll dazu als Komponente verwendet und eingebettet werden.
+
+<a href="docbase/U-05-GUI-Komponenten.pdf">Übungsblatt 5</a>
