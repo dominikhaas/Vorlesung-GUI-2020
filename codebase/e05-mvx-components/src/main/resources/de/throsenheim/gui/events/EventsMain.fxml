@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.throsenheim.gui.events.EventsMainPresenter">
+   <right>
+      <fx:include source="eventform/EventForm.fxml" fx:id="eventForm" />
+   </right>
+   <center>
+      <TableView fx:id="eventsTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+            <TableColumn prefWidth="75.0" text="Id" >
+                <cellValueFactory><PropertyValueFactory property="id"/></cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Name" >
+                <cellValueFactory><PropertyValueFactory property="name"/></cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Date" >
+                <cellValueFactory><PropertyValueFactory property="date"/></cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Start" >
+                <cellValueFactory><PropertyValueFactory property="start"/></cellValueFactory>
+            </TableColumn>
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
