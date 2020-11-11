@@ -53,4 +53,4 @@ Ziel der Übung ist es, eine Oberfläche bestehend aus Eingabeformular und Tab
 ### Übung 6 - Event-Bus
 Ziel der Übung ist es die Oberfläche der vergangenen Übungen um einen Event-Bus zu erweitern. Dieser soll dazu verwendet werden eine Statusanzeige anzubinden (lose Kopplung).
 
-<a href="docbase/U-06-EventBus.pdf">Übungsblatt 6</a>
+<a href="docbase/U-06-Event-Bus.pdf">Übungsblatt 6</a>
