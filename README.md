@@ -54,3 +54,8 @@ Ziel der Übung ist es, eine Oberfläche bestehend aus Eingabeformular und Tab
 Ziel der Übung ist es die Oberfläche der vergangenen Übungen um einen Event-Bus zu erweitern. Dieser soll dazu verwendet werden eine Statusanzeige anzubinden (lose Kopplung).
 
 <a href="docbase/U-06-Event-Bus.pdf">Übungsblatt 6</a>
+
+### Übung 7 - Parallelität bei grafischen Oberflächen
+Ziel der Übung ist es, eine (simuliert) langlaufende Aktion außerhalb des UI-Threads auszuführen. Dem Benutzer soll dabei ein Fortschritt visualisiert werden.
+
+<a href="docbase/U-07-Parallelitaet.pdf">Übungsblatt 7</a>
