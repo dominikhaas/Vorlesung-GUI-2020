@@ -1,0 +1,11 @@
+allprojects {
+    apply plugin: 'java'
+
+    group 'de.throsenheim.gui.architektur.vorlesung'
+    version '1.0-SNAPSHOT'
+
+
+    repositories {
+        mavenCentral()
+    }
+}
