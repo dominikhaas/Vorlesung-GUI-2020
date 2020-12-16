@@ -1,0 +1,72 @@
+
+
+
+#event-form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0.2em;
+}
+
+#event-form input[type=date] {
+  justify-self: start;
+}
+
+#event-form input[type=checkbox] {
+  align-self: center;
+}
+
+#event-form select {
+  justify-self: start;
+  min-width: 9em;
+}
+
+#event-form hr {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.street-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 0.2em;
+}
+
+.city-form {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 0.2em;
+}
+
+.button-container {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 0.2em;
+}
+
+#save-button {
+  justify-self: end;
+}
+
+#notes-input {
+  height: 10em;
+}
+@media (max-width: 500px) {
+  #event-form {
+    grid-template-columns: auto;
+  }
+
+  #event-form hr {
+    grid-column: span 1;
+  }
+
+  .city-form {
+    grid-column: 1 / 2;
+  }
+
+  .button-container {
+    grid-column: 1 / 2;
+  }
+
+}
