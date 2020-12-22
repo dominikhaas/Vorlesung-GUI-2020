@@ -76,3 +76,8 @@ Wir entwickeln die Webversion unseres Formulars aus den vergangenen Übungen.
 Wir verwenden das HTML der letzten Übung um eine kleine laufähige Web-Version des Formulars zu erzeugen. Als Framework verwenden wir dazu Angular.
 
 <a href="docbase/U-10-Web02.pdf">Übungsblatt 10</a>
+
+### Übung 11 - Test
+Ziel der Übungen ist es, eine Angular-Anwendung um Unit- und End-To-End-Tests zu erweitern.
+
+<a href="docbase/U-11-Test.pdf">Übungsblatt 11</a>
