@@ -1,0 +1,80 @@
+<div>
+<h1>Event</h1>
+
+<div id="event-form">
+  <label for="id-input">Id</label>
+  <input type="text" disabled="true" id="id-input" [(ngModel)]="model.id">
+
+  <label for="name-input">Name</label>
+  <input type="text" id="name-input" [(ngModel)]="model.name">
+
+  <hr>
+
+  <label for="date-input">Date</label>
+  <input type="date" id="date-input" [(ngModel)]="model.date">
+
+  <label for="start-input">Start</label>
+  <select id="start-input" [(ngModel)]="model.start"></select>
+
+
+  <label for="end-input">End</label>
+  <select id="end-input" [(ngModel)]="model.end"></select>
+
+  <hr>
+
+  <label for="participants-input">Participants</label>
+  <input type="text" id="participants-input" [(ngModel)]="model.participants">
+
+  <label for="private-input">Private</label>
+  <input type="checkbox" id="private-input" [(ngModel)]="model.private">
+
+  <hr>
+
+  <label>Address</label>
+  <div class="street-form">
+    <input type="text" id="street-input" placeholder="Street" [(ngModel)]="model.street">
+    <input type="text" id="number-input" size="3" placeholder="Nr" [(ngModel)]="model.streetNumber">
+  </div>
+
+  <div class="city-form">
+    <input type="text" id="zip-input" size="5" placeholder="zip" [(ngModel)]="model.zip">
+    <input type="text" id="city-input" placeholder="city" [(ngModel)]="model.city">
+  </div>
+
+  <label for="notes-input">Notes</label>
+  <textarea id="notes-input" [(ngModel)]="model.notes"></textarea>
+
+  <div class="button-container">
+    <button type="button" class="btn btn-sm" (click)="reset()" id="reset-button">Reset</button>
+    <button type="button" class="btn btn-sm btn-primary" id="save-button" (click)="save()">Save</button>
+    <button type="button" class="btn btn-sm">Cancel</button>
+  </div>
+</div>
+
+
+
+<!-- todo
+
+
+<h1>Event</h1>
+
+<div id="event-form">
+    <label for="id-input">Id</label>
+    <input type="text" disabled="true" id="id-input">
+
+    <label for="name-input">Name</label>
+    <input type="text" id="name-input">
+
+    <hr>
+
+</div>
+
+-->
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</div>
