@@ -1,0 +1,26 @@
+/*
+ * _____________________________________________________________________________
+ * 
+ *           Project:    GUI 2015
+ * _____________________________________________________________________________
+ * 
+ *        Created by:    Johannes Weigend, QAware GmbH
+ *     Creation date:    March - July 2015
+ * _____________________________________________________________________________
+ * 
+ *         Copyright:    Hochschule Rosenheim
+ * _____________________________________________________________________________ 
+ */
+.login {
+    -fx-background-color: linear-gradient(#98a8bd 0%, #8195af 25%, #6d86a4 100%);
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+}
+
+.text {
+    -fx-text-fill: white;
+}
+
+.heading {
+    -fx-font-size: 24px;
+}
